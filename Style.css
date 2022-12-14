@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #fdedda;
+}
+
+header {
+    background-color: #ff8c00;
+    color: white;
+    padding: 2rem 1rem;
+    font-size: 35px;
+}
+
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+header h6 {
+    text-align: right;
+}
+
+.container {
+    width: 350px;
+    margin: 0 auto;
+}
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0rem;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article h2 {
+    text-align: center;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+}
+
+section article p {
+    margin: 1rem;
+    text-align: center;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(0, 0, 0);
+
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 3rem;
+
+}
+
+footer section {
+    float: right;
+}
