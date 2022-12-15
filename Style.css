@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: #ff8c00;
+    background-image: radial-gradient(circle at 87.5% 12.5%, #ffb745 0, #ffa73c 16.67%, #fd932f 33.33%, #f37b1f 50%, #e86211 66.67%, #e04a0b 83.33%, #db3210 100%);
     color: white;
     padding: 2rem 1rem;
     font-size: 35px;
@@ -36,7 +36,7 @@ header h6 {
 
 section article {
     transition: box-shadow 0.3s ease;
-    background-color: #fff;
+    background-color: rgb(245, 245, 245);
     margin: 1rem 0rem;
     border-radius: 0.5rem;
     padding: 0.25rem 0;
@@ -71,4 +71,7 @@ footer {
 
 footer section {
     float: right;
+}
+section a{
+    color: yellow;
 }
