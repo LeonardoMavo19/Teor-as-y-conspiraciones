@@ -15,7 +15,7 @@ body {
 
 header {
     display: flex;
-    height: 70px;
+    height: 84px;
     background-image: radial-gradient(circle at 87.5% 12.5%, #ffb745 0, #ffa73c 16.67%, #fd932f 33.33%, #f37b1f 50%, #e86211 66.67%, #e04a0b 83.33%, #db3210 100%);  
     align-items: center;
     justify-content: space-between;
@@ -59,6 +59,8 @@ section article h2 {
 section article p {
     margin: 1rem;
     text-align: center;
+    font-weight: bold;
+    
 }
 
 section article:hover {
@@ -69,7 +71,7 @@ section article:hover {
 footer {
     background-color: #222;
     color: #fff;
-    padding: 3rem;
+    padding: 2rem;
 
 }
 
