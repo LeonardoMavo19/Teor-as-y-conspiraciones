@@ -20,11 +20,16 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: 0%;
 }
 
 .subtitulo{
     display: flex;
     align-items: center;
+    overflow-wrap: break-word;
 }
 
 .subtitulo img{
@@ -36,6 +41,7 @@ header {
 .container {
     width: 350px;
     margin: 0 auto;
+    margin-top: 8rem;
 }
 
 section article {
