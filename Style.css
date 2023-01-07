@@ -29,7 +29,6 @@ header {
 .subtitulo{
     display: flex;
     align-items: center;
-    overflow-wrap: break-word;
 }
 
 .subtitulo img{
@@ -69,6 +68,41 @@ section article p {
     
 }
 
+#botton{
+    margin-left: 9rem;
+}
+
+#texto{
+    display: none;
+}
+
+#botton-dos{
+    margin-left: 9rem;
+}
+#texto-dos{
+    display: none;
+}
+
+#botton-tres{
+    margin-left: 9rem;
+}
+#texto-tres{
+    display: none;
+}
+
+#botton-cuatro{
+    margin-left: 9rem;
+}
+#texto-cuatro{
+    display: none;
+}
+
+#botton-cinco{
+    margin-left: 9rem;
+}
+#texto-cinco{
+    display: none;
+}
 section article:hover {
     box-shadow: 0 0.1rem 0.4rem rgb(0, 0, 0);
 
