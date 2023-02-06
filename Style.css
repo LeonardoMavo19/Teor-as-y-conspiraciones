@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,7 +16,7 @@ body {
 header {
     display: flex;
     height: 84px;
-    background-image: radial-gradient(circle at 87.5% 12.5%, #ffb745 0, #ffa73c 16.67%, #fd932f 33.33%, #f37b1f 50%, #e86211 66.67%, #e04a0b 83.33%, #db3210 100%);  
+    background-image: radial-gradient(circle at 87.5% 12.5%, #ffb745 0, #ffa73c 16.67%, #fd932f 33.33%, #f37b1f 50%, #e86211 66.67%, #e04a0b 83.33%, #db3210 100%);
     align-items: center;
     justify-content: space-between;
     padding: 20px;
@@ -26,23 +26,29 @@ header {
     right: 0%;
 }
 
-.subtitulo{
+.subtitulo {
     display: flex;
     align-items: center;
 }
 
-.subtitulo img{
+.subtitulo img {
     height: 40px;
     border-radius: 40px;
     margin-right: 5px;
 }
 
 .container {
-    width: 350px;
+    width: 300px;
     margin: 0 auto;
     margin-top: 8rem;
+    display: grid;
+    grid-template-columns: 1fr, 1fr
 }
 
+.articulo{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
 section article {
     transition: box-shadow 0.3s ease;
     background-color: rgb(245, 245, 245);
@@ -50,6 +56,7 @@ section article {
     border-radius: 0.5rem;
     padding: 0.25rem 0;
     cursor: pointer;
+    
 }
 
 section article h2 {
@@ -65,44 +72,49 @@ section article p {
     margin: 1rem;
     text-align: center;
     font-weight: bold;
-    
+
 }
 
-#botton{
-    margin-left: 9rem;
+#botton {
+    margin-left: 45%;
 }
 
-#texto{
+#texto {
     display: none;
 }
 
-#botton-dos{
-    margin-left: 9rem;
+#botton-dos {
+    margin-left: 45%;
 }
-#texto-dos{
+
+#texto-dos {
     display: none;
 }
 
-#botton-tres{
-    margin-left: 9rem;
+#botton-tres {
+    margin-left: 45%;
 }
-#texto-tres{
+
+#texto-tres {
     display: none;
 }
 
-#botton-cuatro{
-    margin-left: 9rem;
+#botton-cuatro {
+    margin-left: 45%;
 }
-#texto-cuatro{
+
+#texto-cuatro {
     display: none;
 }
 
-#botton-cinco{
-    margin-left: 9rem;
+#botton-cinco {
+    margin-left: 45%;
 }
-#texto-cinco{
+
+#texto-cinco {
     display: none;
 }
+
 section article:hover {
     box-shadow: 0 0.1rem 0.4rem rgb(0, 0, 0);
 
@@ -118,6 +130,7 @@ footer {
 footer section {
     float: right;
 }
-section a{
+
+section a {
     color: #ffa238;
 }
