@@ -37,18 +37,34 @@ header {
     margin-right: 5px;
 }
 
+nav ul {
+    margin-top: 5rem;
+    background-image: radial-gradient(circle at 87.5% 12.5%, #ffb745 0, #ffa73c 16.67%, #fd932f 33.33%, #f37b1f 50%, #e86211 66.67%, #e04a0b 83.33%, #db3210 100%);
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li {
+    display: inline-flex;
+}
+nav a {
+    text-decoration: none;
+    padding: 15px;
+    width: 150px;
+    color:#222;
+    font-weight: bold;
+}
+nav li:hover {
+    background-color: #fdedda;
+}
+
+
 .container {
     width: 300px;
     margin: 0 auto;
-    margin-top: 8rem;
-    display: grid;
-    grid-template-columns: 1fr, 1fr
+    margin-top: 2rem;
 }
 
-.articulo{
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-}
 section article {
     transition: box-shadow 0.3s ease;
     background-color: rgb(245, 245, 245);
@@ -57,6 +73,11 @@ section article {
     padding: 0.25rem 0;
     cursor: pointer;
     
+}
+
+section article h1 {
+    text-align: center;
+    color: #ffa238;
 }
 
 section article h2 {
@@ -124,7 +145,6 @@ footer {
     background-color: #222;
     color: #fff;
     padding: 2rem;
-
 }
 
 footer section {
